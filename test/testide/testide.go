@@ -6,6 +6,10 @@ import (
 
 func main() {
 	fmt.Println("VSCode debug tool works!")
+	arr := [2]int{1, 2}
+	fmt.Println(arr)
+	arr[1] = 5
+	fmt.Println(arr)
 }
 
 /*
